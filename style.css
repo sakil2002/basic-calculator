@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+.casio {
+  font-family: cursive;
+  padding: 3px;
+  float: left;
+  margin: 10px;
+  color: rgb(255, 138, 197);
+
+  font-size: larger;
+}
+.fx {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  float: right;
+  padding: 10px;
+  margin: 10px;
+  font-size: smaller;
+  color: aquamarine;
+}
+
+.svpam1 {
+  font-size: small;
+  position: absolute;
+  top: 35px;
+  display: inline;
+  color: whitesmoke;
+  font-family: cursive;
+}
+.container {
+  border: 2px solid rgb(250, 156, 156);
+  width: 240px;
+  height: 450px;
+  position: absolute;
+  top: 33px;
+  left: 38%;
+  background-color: rgb(33, 15, 15);
+
+  border-radius: 20px;
+  border: 4px groove rgb(185, 255, 255);
+}
+
+.input {
+  text-align: center;
+  padding: 15px;
+}
+.result {
+  border-radius: 10px;
+  border: 2px groove white;
+  box-shadow: 0px 0px 6px 0px hotpink;
+  text-align: right;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px solid rgb(246, 94, 119);
+  color: white;
+  text-decoration: wavy;
+  margin: 10px;
+  position: relative;
+  top: 10px;
+}
+.items {
+  border: 2px groove rgb(255, 196, 206);
+  padding: 10px;
+  border-radius: 10px 20px 7px 10px;
+  background-color: rgb(13, 13, 13);
+  color: rgb(255, 99, 125);
+  display: grid;
+  place-items: center;
+  transition: transform 0.2s;
+  box-shadow: 0px 0px 6px 0px rgb(248, 214, 231);
+}
+.items:hover {
+  box-shadow: 0px 0px 10px 0px rgb(241, 65, 185);
+  transform: scale(1.1);
+}
+.special_sign {
+  border: 2px groove rgb(255, 196, 206);
+  padding: 10px;
+  border-radius: 10px 20px 7px 10px;
+  background-color: rgb(13, 13, 13);
+  color: rgb(255, 99, 125);
+  display: grid;
+  place-items: center;
+  transition: transform 0.2s;
+  box-shadow: 0px 0px 6px 0px rgb(248, 214, 231);
+}
+.special_sign:hover {
+  box-shadow: 0px 0px 10px 0px rgb(241, 65, 185);
+  transform: scale(1.1);
+}
+#special:hover {
+  box-shadow: 0px 0px 10px 0px white;
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  padding: 17px;
+}
+#special {
+  background-color: rgb(250, 172, 200);
+  color: black;
+  border-radius: 10px 5px;
+  display: grid;
+  place-items: center;
+  border: 3px ridge rgb(255, 255, 255);
+}
